@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--首页布局实现
+霓虹灯效果，中间有一个button-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#aabbcc"
+    tools:context="com.learn.lister.cn.LaunchActivity">
+
+    <TextView
+        android:id="@+id/view01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="480px"
+        android:height="480px"
+        android:background="#f00"/>
+    <TextView
+        android:id="@+id/view02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="320px"
+        android:height="320px"
+        android:background="#0f0"/>
+    <TextView
+        android:id="@+id/view03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="480px"
+        android:height="480px"
+        android:background="#00f"/>
+    <Button
+        android:id="@+id/launch_btn_ar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:width="240px"
+        android:height="240px"
+        android:text="走进AR世界"/>
+    <TextView
+        android:id="@+id/view04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="320px"
+        android:height="320px"
+        android:background="#ff0"/>
+    <TextView
+        android:id="@+id/view05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="300px"
+        android:height="300px"
+        android:background="#f0f"/>
+    <TextView
+        android:id="@+id/view06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="250px"
+        android:height="250px"
+        android:background="#0ff"/>
+
+
+   <!-- <Button
+        android:id="@+id/launch_btn_anim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="跳转动画测试"/>
+
+    <Button
+        android:id="@+id/launch_btn_alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Sweet Alert"/>-->
+
+</FrameLayout>
